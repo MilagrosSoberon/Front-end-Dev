@@ -1,0 +1,50 @@
+h2{
+    color: blue;
+}
+
+h1{
+    color: red;
+    background-color: yellow;/*color de fondo*/
+    text-align: center;
+    font-family: arial;
+}
+
+p{
+    color: green;
+    font-weight: bold;
+}
+
+.destacados{
+    color: orange;
+    font-size: 22px;/*tamaño de la fuente*/
+    font-style: italic; /*italica*/
+    font-weight: bold; /*negrita*/
+}
+
+#rojo{
+    width: 300px;/*ancho*/
+    height: 400px;/*alto*/
+    background-color: moccasin;
+    text-align: center;
+    margin-left: 50px; /*margen externo*/
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 5px solid purple; /*grosor y tipo de color*/
+    box-sizing: border-box;
+}
+
+#celeste{
+    width: 300px;
+    height: 400px;
+    background-color: lightskyblue;
+    padding: 20px; /*margen interno*/
+    box-sizing: border-box; /*hace que no se agrande la caja por el padding*/
+    border-right: 5px dashed blue;
+
+}
+/*
+regla de css
+h2 tipo de selector:eqiqueta
+y adentro van las distintas prop con sus valores
+*/
