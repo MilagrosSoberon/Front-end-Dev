@@ -1,0 +1,15 @@
+/*
+font-family: 'Courier Prime', monospace;
+font-family: 'Montserrat', sans-serif;
+*/
+
+h2{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: blueviolet;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+}
