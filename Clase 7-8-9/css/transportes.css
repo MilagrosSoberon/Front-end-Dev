@@ -1,0 +1,125 @@
+/*
+font-family: 'Courier Prime', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    background-color: #2e64a1;
+    padding: 16px 0;
+    
+}
+
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+header h1{
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    position: relative;
+    margin: 0;
+}
+
+nav{
+    background-color: #6da9ed;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    /*background: rgba(0,0,0,0.3);*/
+    background-color: #4c76a5;
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+footer{
+    background-color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.columnas {
+    display: flex;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 16px;
+}
+.testimonios{
+    width: 25%;
+    
+}
+
+
+.testimonio{
+    background-color: #ccc;
+    padding: 16px;
+    
+}
+
+.testimonio .cita{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+}
+
+.historia p{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18;
+}
