@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: gray;
+    /*display: flex;/*uno al lado del otro*/
+    display: inline-flex;/*la caja se adapta al tamaño de sus hijos*/
+}
+
+.item{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}

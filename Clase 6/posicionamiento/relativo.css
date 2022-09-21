@@ -1,0 +1,28 @@
+.contenedor{
+    background-color: rgb(183, 192, 199) ;
+    width: 60%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.verde{
+    background-color: lightgreen;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; 
+    position: relative; /*posicionamiento que se mueve en base a donde se ubico ese elemento*/
+    top: 50px;
+    left: 50px;
+}
+.celeste{
+    background-color: lightblue;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; 
+}
+.amarillo{
+    background-color: lightyellow;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; 
+}

@@ -1,0 +1,30 @@
+.contenedor{
+    background-color: rgb(183, 192, 199) ;
+    width: 60%;
+    margin: 0 auto;
+    height: 500px;
+   position: relative;
+}
+
+.verde{
+    background-color: lightgreen;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; 
+    position: absolute;/*se mide con respecrto a un elemento que tenga posicionamiento realtivo, el elemento con posicionaiento relativo por nacimiento es la etiqueta <body>
+    contenedor tiene pocisioiamiento estatico*/
+    top: 0;
+    left: 0;
+}
+.celeste{
+    background-color: lightblue;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; 
+}
+.amarillo{
+    background-color: lightyellow;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; 
+}
