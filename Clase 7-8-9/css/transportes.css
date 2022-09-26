@@ -210,10 +210,42 @@ footer{
 
 .formulario p label{
     min-width: 80px;
+    display: flex;
+    align-items: center;
+    
 }
 
 .formulario p input,
 .formulario p textarea{
-    background: rgb(151, 146, 189);
+    background: #ddd;
     width: 100%;
+    border-radius: 4px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 120px;
+}
+
+.formulario p:nth-child(4){
+    align-items:start;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px gray;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    position: relative;
+    left: 80px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
 }
