@@ -1,0 +1,33 @@
+[
+{
+    "nombre":"Mili",
+    "apellido":"Soberon",
+    "edad":20
+
+},
+{
+    "nombre":"Nuria",
+    "apellido":"Robledo",
+    "edad":20
+
+},
+{
+    "nombre":"Luciano",
+    "apellido":"Pigliapoco",
+    "edad":21
+
+},
+{
+    "nombre":"Cynthia",
+    "apellido":"Guevara",
+    "edad":40
+
+},
+{
+    "nombre":"Tomas",
+    "apellido":"Zucca",
+    "edad":20
+
+}
+
+]

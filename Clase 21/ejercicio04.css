@@ -1,0 +1,26 @@
+.caja{
+    display: flex; 
+    text-align: center;
+}
+p{
+    text-align: center; 
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    margin: 20px ;
+    border: 2px solid black;
+    cursor: pointer; 
+}
+
+.verde{
+    background-color: green;
+}
+
+.rosa{
+    background-color: pink;
+}
+.amarillo{
+    background-color: yellow;
+}
