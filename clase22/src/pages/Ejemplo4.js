@@ -1,10 +1,17 @@
+import alumnos from '../data/alumnos.json';
 
+const Ejemplo4 = props => {
+    return (
+        <>
+            <h1>Json</h1>
+            <ul>
+                {alumnos.map(alumno=>(
+                    <li>{alumno.nombre} {alumno.apellido}</li>
+                )
+                )}
+            </ul>
+        </>
 
-const Ejemplo4=props =>{
-    return(
-        <div>
-                <h1>Json</h1>
-        </div>
     )
 }
 
